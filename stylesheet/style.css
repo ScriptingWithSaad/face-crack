@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.full1,
+.full2,
+.full3 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.man {
+    position: absolute;
+    width: 100%;
+    height: 98%;
+}
+
+.man1 {
+    filter: grayscale(100%);
+}
+
+.man2 {
+    filter: grayscale(50%);
+}
+
+.man3 {
+    filter: grayscale(0%);
+}
+
+.crack {
+    position: absolute;
+    width: 82%;
+    height: 65%;
+    mix-blend-mode: overlay;
+}
